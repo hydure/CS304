@@ -1,1 +1,1 @@
-# CS304 This repository displays all the code I've programmed in CSCI 304.
+# CS304 This repository displays all the code I've programmed in Computer Organization.
