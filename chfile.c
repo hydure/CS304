@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//intended to be used as ./chfile f1.txt f2.txt
 int main(int argc, char *argv[]){
   FILE *ptr1_file, *ptr2_file;
   char buf[1000];
