@@ -1,0 +1,24 @@
+Problem 2:
+a. %rdx = 0x08048a37
+b. %rdx = 0xc4
+c. %rdx = 0x08048a6b
+d. %rdx = 0x69
+e. %rdx = 0xe8
+f. %rdx = 0x08048a37
+g. %rdx = 0x136ce7ad
+h. %rdx = 0xdc5b2ea
+i. %rdx = 0x3a2df8a7
+j. %rdx = 0x8048dd0
+
+Problem 3:
+test:
+   compq %rsi, %rdi   #x:y
+   jle .L4
+   movq %rdi, %rax
+   addq %rsi, %rax
+   ret
+.L4:               #x <= y
+   movq %rdi, %rax
+   subq %rsi, %rax
+   salq $1  , %rax
+   ret
