@@ -1,0 +1,25 @@
+1. num1 = 237 in decimal notation
+   num2 = 128 in decimal notation
+
+2. num1 = -19 in decimal notation
+   num2 = -128 in decimal notation
+
+3. 157 is 0x 00 00 00 9D in hexadecimal form
+  -157 is 0x FF FF FF 63 in hexadecimal form
+
+4. decimal value is 137, the hexadecimal form is 0x89
+
+5. 0b10001001 is 137 in decimal notation
+   0b10001001 is 89 in hexadecimal form
+
+6. 35 is 0b00100011 in binary notation
+   35 is 0x23 in hexadecimal notation
+
+7. (-122)+(-111) is 0b10000110 + 0b10010001 in binary
+   and equates to 0b00010111 or 23 (overflow occurred)
+   
+   111+112 is 0b01101111 + 0b01110000 in binary
+   and equates to 0b11011111 or -33 (overflow occurred)
+
+   111-122 is 0b01101111 + 0b10000110 in binary
+   and equates to 11110101 or -11 (no overflow occurred)
