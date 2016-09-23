@@ -1,0 +1,24 @@
+Problem 2:
+a. %rdx = 0x0000000008048a37
+b. %rdx = 0xec833b75c08510c4
+c. %rdx = 0x0000000008048a6b
+d. %rdx = 0xfdc5e8080496a868
+e. %rdx = 0x2404c7fffffda9e8
+f. %rdx = 0x0000000008048a37
+g. %rdx = 0x00000000136ce7ad
+h. %rdx = 0x000000000dc5b2ea
+i. %rdx = 0x000000003a2df8a7
+j. %rdx = 0x0000000008048dd0
+
+Problem 3:
+test:
+   compq %rsi, %rdi   #x:y
+   jle .L4
+   movq %rdi, %rax
+   addq %rsi, %rax
+   ret
+.L4:               #x <= y
+   movq %rdi, %rax
+   subq %rsi, %rax
+   salq $1  , %rax
+   ret
